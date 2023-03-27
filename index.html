@@ -1,189 +1,192 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="description"
-            content="GoIT  Full Stack Developer  Repozytorium:
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="GoIT  Full Stack Developer  Repozytorium:
         goit-markup-hw-01"
-        />
-        <title>WebStudio</title>
-    </head>
-    <body>
-        <!-- Header  -->
+    />
+    <title>WebStudio</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-page">
+      <!-- Header  -->
 
-        <header>
-            <!--Menu-->
-            <nav>
-                <a href="WebStudio"> Web<span>Studio</span> </a>
+      <header class="pos-menu wrapper">
+        <!-- eslint-disable @html-eslint/element-newline -->
+        <a href="WebStudio" class="pos-menu-webstudio word-web">
+          Web<span class="word-studio">Studio</span>
+        </a>
+        <!--Menu-->
+        <nav>
+          <ul class="wrapper link-font">
+            <li>
+              <a href="./index.html" class="pos-menu-agencja">Agencja</a>
+            </li>
+            <li>
+              <a href="./portfolio/index.html" class="pos-menu-portfolio">Portfolio</a>
+            </li>
+            <li><a href="Kontakt" class="pos-menu-kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
 
-                <ul>
-                    <li>
-                        <a href="Agencja">Agencja</a>
-                    </li>
-                    <li><a href="Portfolio">Portfolio</a></li>
-                    <li><a href="Kontakt">Kontakt</a></li>
-                </ul>
-            </nav>
+        <ul class="wrapper link-font">
+          <li>
+            <a href="info@devstudio.com" class="pos-menu-email">info@devstudio.com</a>
+          </li>
 
-            <ul>
-                <li>
-                    <a href="info@devstudio.com">info@devstudio.com</a>
-                </li>
+          <li>
+            <a href="tel:+48 111 111 111" class="pos-menu-telefon">+48 111 111 111 111</a>
+          </li>
+        </ul>
+      </header>
 
-                <li>
-                    <a href="tel:+48&nbsp;111&nbsp;111&nbsp;111">+48 111 111 111</a>
-                </li>
-            </ul>
-        </header>
+      <!-- Main -->
 
-        <!-- Main -->
+      <main>
+        <section class="pos-main-header">
+          <h1 class="main-header-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button type="button" class="header-button">Zamów usługe</button>
+        </section>
 
-        <main>
-            <section>
-                <h1>
-                    EFEKTYWNE ROZWIĄZANIA<br />
-                    DLA WASZEGO BIZNESU
-                </h1>
-                <button type="button">Zamów usługe</button>
-            </section>
+        <!--Section 0 - Nasze atrybuty-->
 
-            <!--Section 0 - Nasze atrybuty-->
+        <section class="pos-attributes">
+          <ul class="wrapper-30">
+            <li class="lorem-ipsum-box-first">
+              <h3 class="lorem-ipsum-hdr">LOREM IPSUM</h3>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Nam vel arcu sem. Sed
+                non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="lorem-ipsum-box">
+              <h3 class="lorem-ipsum-hdr">LOREM IPSUM</h3>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor sit amet, consectetur</br>
+                adipiscing elit. Nam vel arcu sem. Sed</br>
+                non sodales dui. Interdum et malesuada
 
-            <section>
-                <ul>
-                    <li>
-                        <h3>LOREM IPSUM</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h3>LOREM IPSUM</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h3>LOREM IPSUM</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h3>LOREM IPSUM</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                </ul>
-            </section>
+              </p>
+            </li>
+            <li class="lorem-ipsum-box">
+              <h3 class="lorem-ipsum-hdr">LOREM IPSUM</h3>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor sit amet, consectetur</br>
+                adipiscing elit. Nam vel arcu sem. Sed</br>
+                non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="lorem-ipsum-box">
+              <h3 class="lorem-ipsum-hdr">LOREM IPSUM</h3>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor sit amet, consectetur</br>
+                adipiscing elit. Nam vel arcu sem. Sed</br>
+                non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </section>
 
-            <!--Section 1 - Czym się zajmujemy-->
+        <!--Section 1 - Czym się zajmujemy-->
 
-            <section>
-                <h2>Czym się zajmujemy</h2>
-                <ul>
-                    <li>
-                        <img
-                            src="./images/section1_1.jpg"
-                            alt="Tablet i klawiatura programisty"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="./images/section1_2.jpg"
-                            alt="Laptop i smartfon - narzędzia współczesnego programisty"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img src="./images/section1_3.jpg" alt="Paleta kolorów" height="294" />
-                    </li>
-                </ul>
-            </section>
+        <section class="pos-what-we-do">
+          <h2 class="what-we-do-heater">Czym się zajmujemy</h2>
+          <ul class="wrapper-img">
+            <li class="what-we-do-img">
+              <img
+                src="./images/section1_1.jpg"
+                alt="Tablet i klawiatura programisty"
+                height="294"
+                class="what-we-do-img"
+              />
+            </li>
+            <li class="what-we-do-img">
+              <img
+                src="./images/section1_2.jpg"
+                alt="Laptop i smartfon - narzędzia współczesnego programisty"
+                height="294"
+                class="what-we-do-img"
+              />
+            </li>
+            <li class="what-we-do-img">
+              <img src="./images/section1_3.jpg"
+                alt="Paleta kolorów" height="294"
+                class="what-we-do-img" />
+            </li>
+          </ul>
+        </section>
 
-            <!--Section 2 - Nasz zespół-->
+        <!--Section 2 - Nasz zespół-->
 
-            <section>
-                <h2>Nasz zespół</h2>
-                <ul>
-                    <li>
-                        <figure>
-                            <img
-                                src="./images/section2_1.jpg"
-                                alt="John Doe - Product Designer"
-                                height="260"
-                            />
-                            <figcaption>
-                                <h3>John Doe</h3>
-                                <p>Product Designer</p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img
-                                src="./images/section2_2.jpg"
-                                alt="John Doe - Frontend Developer"
-                                height="260"
-                            />
-                            <figcaption>
-                                <h3>John Doe</h3>
-                                <p>Frontend Developer</p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img
-                                src="./images/section2_3.jpg"
-                                alt="John Doe - Marketing"
-                                height="260"
-                            />
-                            <figcaption>
-                                <h3>John Doe</h3>
-                                <p>Marketing</p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img
-                                src="./images/section2_4.jpg"
-                                alt="John Doe - UI Designer"
-                                height="260"
-                            />
-                            <figcaption>
-                                <h3>John Doe</h3>
-                                <p>UI Designer</p>
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
-            </section>
-        </main>
+        <section class="pos-team">
+          <h2>Nasz zespół</h2>
+          <ul class="pos-team-2 wrapper-img">
+            <li class="card-shadow">
+              <figure class="team-img-first">
+                <img src="./images/section2_1.jpg" alt="John Doe - Product Designer" class="team-img" />
+                <figcaption class="pos-fig-caption fig-caption">
+                  <h3>John Doe</h3>
+                  <p>Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card-shadow">
+              <figure class="team-img-first">
+                <img
+                  src="./images/section2_2.jpg"
+                  alt="John Doe - Frontend Developer"
+                  height="260"
+                />
+                <figcaption class="pos-fig-caption fig-caption">
+                  <h3>John Doe</h3>
+                  <p>Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card-shadow">
+              <figure class="team-img-first">
+                <img src="./images/section2_3.jpg" alt="John Doe - Marketing" height="260" />
+                <figcaption class="pos-fig-caption fig-caption">
+                  <h3>John Doe</h3>
+                  <p>Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card-shadow">
+              <figure class="team-img-first">
+                <img src="./images/section2_4.jpg" alt="John Doe - UI Designer" height="260" />
+                <figcaption class="pos-fig-caption fig-caption">
+                  <h3>John Doe</h3>
+                  <p>UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </main>
 
-        <!-- Footer -->
+      <!-- Footer -->
 
-        <footer>
-            <a href="WebStudio">Web<span>Studio</span></a>
+      <footer class="pos-footer">
+        <a href="WebStudio" class="pos-menu-webstudio word-web">
+          Web<span class="word-studio">Studio</span>
+        </a>
 
-            <address>
-                <ul>
-                    <li>Warszawa, Aleje Jerozolimskie 21</li>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li>
-                        <a href="tel:+48 111 111 111">+48 111 111 111</a>
-                    </li>
-                </ul>
-            </address>
-        </footer>
-    </body>
+        <address>
+          <ul class="adress-font pos-adress">
+            <li>Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li>
+              <a href="tel:+48 111 111 111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </footer>
+    </div>
+  </body>
 </html>
