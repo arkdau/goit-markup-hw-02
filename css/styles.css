@@ -10,7 +10,7 @@
     --font-text-primary: Roboto:wght@700; 
     --font-text-secondary: Roboto:wght@400; 
   --font-figcapt-hdr: Roboto:wght@500; 
-  
+ --font-btn: Roboto:wght@500; 
 }
 
 /*  Reset */
@@ -147,9 +147,7 @@ footer {
 }
 
 .button-text-font {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
+   font-family: var(--font-text-primary); 
     font-size: 16px;
     line-height: 30px;
 
@@ -171,14 +169,43 @@ footer {
     border-color: var(--color-text-primary);
 }
 
+.btn-nav-text-font li > button {
+font-family: var(--font-btn);
+  font-size: 16px;
+line-height: 26px;
+
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-text-dark) ;
+} 
+
+.btn-nav-text-font li > button {
+/*background: #2196F3;*/
+
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.btn-nav-text-font li > button:hover {
+background: #2196F3;
+ color: #FFFFFF; 
+}
+
+
 h3 {
   font-family: var(--font-text-primary);
-  font-size: 14px;
+  
+
+}
+
+.text-secondary li > h3 {
+font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 color: var(--color-text-dark);
-
 }
 
 /*
@@ -190,13 +217,16 @@ color: var(--color-text-dark);
 
 .text-secondary {
   font-family: var(--font-text-secondary);
+  color: var(--color-text-secondary);
+
+}
+
+.text-secondary li > p {
 font-size: 14px;
 line-height: 24px;
 
 /* or 171% */
 letter-spacing: 0.03em;
-  color: var(--color-text-secondary);
-
 }
 
 h2 {
@@ -228,8 +258,28 @@ font-family: var(--font-text-secondary) ;
  color: var(--color-text-secondary);
 }
 
+.fig-capption-2 li > figcaption > h3 {
+font-size: 18px;
+line-height: 36px;
 
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+  color: var(--color-text-dark);
+}
 
+.fig-capption-2 {
+  font-family: var(--font-text-secondary);
+}
+
+.fig-capption-2 li > figcaption > p {
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 188% */
+letter-spacing: 0.03em;
+
+color: #757575;  
+}
 .wrapper {
     display: flex;
     /* flex-direction: row-reverse;*/
