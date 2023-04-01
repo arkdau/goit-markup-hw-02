@@ -33,7 +33,6 @@
     <!-- Portfolio -->
     <!-- eslint-disable @html-eslint/element-newline -->
     <!-- eslint-disable @html-eslint/indent -->
-
     <body>
         <!-- Header  -->
         <!-- eslint-disable @html-eslint/element-newline -->
@@ -42,13 +41,14 @@
         <header>
             <!--Menu-->
             <nav>
-                <a
+                <p
                     href="WebStudio"
                     class="logo-fonts"
+                    style="color: var(--color-text-primary)"
                 >
-                    Web<span>Studio</span>
-                </a>
-                <ul class="menu-color">
+                    Web<span style="color: black">Studio</span>
+                </p>
+                <ul class="menu-font">
                     <li>
                         <a href="./index.html">Agencja</a>
                     </li>
@@ -57,138 +57,165 @@
                 </ul>
             </nav>
 
-            <ul>
+            <ul class="menu-font address-color">
                 <li>
-                    <a
-                        href="mailto:info@devstudio.com"
-                        class="email"
-                        >info@devstudio.com</a
-                    >
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a
-                        href="tel:+48&nbsp;111&nbsp;111&nbsp;111"
-                        class="tel"
-                        >+48 111 111 111</a
-                    >
+                    <a href="tel:+48 111 111 111">+48 111 111 111</a>
                 </li>
             </ul>
         </header>
 
         <section>
-            <ul class="btn-nav-text-font btn-nav-bg">
-                <li><button type="button">Wszystkie</button></li>
-                <li><button type="button">Strony</button></li>
-                <li><button type="button">Aplikacje</button></li>
-                <li><button type="button">Dizajn</button></li>
-                <li><button type="button">Marketing</button></li>
+            <ul class="btn-nav-font btn-nav-bg">
+                <li>
+                    <button
+                        type="button"
+                        class="btn-nav-font"
+                    >
+                        Wszystkie
+                    </button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="btn-nav-font"
+                    >
+                        Strony
+                    </button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="btn-nav-font"
+                    >
+                        Aplikacje
+                    </button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="btn-nav-font"
+                    >
+                        Dizajn
+                    </button>
+                </li>
+                <li>
+                    <button
+                        type="button"
+                        class="btn-nav-font"
+                    >
+                        Marketing
+                    </button>
+                </li>
             </ul>
             <!-- End -ul- buttons -->
-            <ul class="fig-capption-2">
-                <li>
+            <ul>
+                <li class="box">
                     <img
                         src="./images/Technocrack.jpg"
                         alt="osoby odpowiedzialne za Strone internetową"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Technocrack</h3>
                         <p>Strona internetowa</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/grafika_new_orlean_vs_ golden _Star.jpg"
                         alt="pojedynek koszykarzy New Orlean vs Golden Star"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Grafika New Orlean vs Golden Star</h3>
                         <p>Dizajn</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Restauracja Seafood.jpg"
                         alt="logo restauracji"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Restauracja Seafood</h3>
                         <p>Aplikacja</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Projekt Prime.jpg"
                         alt="słuchawki"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Projekt Prime</h3>
                         <p>Marketing</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Projekt Boxes.jpg"
                         alt="pudełka"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Projekt Boxes</h3>
                         <p>Aplikacja</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Inspiration has no Borders.jpg"
                         alt="Apple - monitor "
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Inspiration has no Borders</h3>
                         <p>Strona internetowa</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Magazyn Limited Edition.jpg"
                         alt="Pierwsza Strona magazynu"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Magazyn Limited Edition</h3>
                         <p>Dizajn</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Projekt LAB.jpg"
                         alt="Etykieta z napisem LAB"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Projekt LAB</h3>
                         <p>Marketing</p>
                     </figcaption>
                 </li>
-                <li>
+                <li class="box">
                     <img
                         src="./images/Growing Business.jpg"
                         alt="Ekran Laptopa z aplikacą - Growing Business"
                         width="370"
                         height="294"
                     />
-                    <figcaption>
+                    <figcaption class="fig-capption-2">
                         <h3>Growing Business</h3>
                         <p>Aplikacja</p>
                     </figcaption>
@@ -200,21 +227,27 @@
 
         <!-- Footer -->
 
-        <footer>
-            <a
+        <footer class="bg">
+            <p
                 href="WebStudio"
                 class="logo-fonts"
-                >Web<span>Studio</span></a
+                style="color: var(--color-text-primary)"
             >
+                Web<span style="color: white">Studio</span>
+            </p>
 
-            <address class="address-font">
-                <ul>
-                    <li>Warszawa, Aleje Jerozolimskie 21</li>
+            <address>
+                <ul class="footer-font">
+                    <li>
+                        <p style="color: white">
+                            m. Warszawa, Aleje Jerozolimskie 21
+                        </p>
+                    </li>
                     <li>
                         <a href="mailto:info@example.com">info@example.com</a>
                     </li>
                     <li>
-                        <a href="tel:+48 111 111 111">+48 111 111 111</a>
+                        <p href="tel:+48 111 111 111">+48 111 111 111</p>
                     </li>
                 </ul>
             </address>

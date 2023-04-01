@@ -38,13 +38,14 @@
         <header>
             <!--Menu-->
             <nav>
-                <a
+                <p
                     href="WebStudio"
                     class="logo-fonts"
+                    style="color: var(--color-text-primary)"
                 >
-                    Web<span>Studio</span>
-                </a>
-                <ul class="menu-color">
+                    Web<span style="color: black">Studio</span>
+                </p>
+                <ul class="menu-font">
                     <li>
                         <a href="./index.html">Agencja</a>
                     </li>
@@ -53,20 +54,12 @@
                 </ul>
             </nav>
 
-            <ul>
+            <ul class="menu-font address-color">
                 <li>
-                    <a
-                        href="mailto:info@devstudio.com"
-                        class="email"
-                        >info@devstudio.com</a
-                    >
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a
-                        href="tel:+48&nbsp;111&nbsp;111&nbsp;111"
-                        class="tel"
-                        >+48 111 111 111</a
-                    >
+                    <a href="tel:+48 111 111 111">+48 111 111 111</a>
                 </li>
             </ul>
         </header>
@@ -74,7 +67,7 @@
         <!-- Main -->
 
         <main>
-            <section>
+            <section class="bg">
                 <h1>
                     EFEKTYWNE ROZWIĄZANIA<br />
                     DLA WASZEGO BIZNESU
@@ -219,21 +212,27 @@
 
         <!-- Footer -->
 
-        <footer>
-            <a
+        <footer class="bg">
+            <p
                 href="WebStudio"
                 class="logo-fonts"
-                >Web<span>Studio</span></a
+                style="color: var(--color-text-primary)"
             >
+                Web<span style="color: white">Studio</span>
+            </p>
 
-            <address class="address-font">
-                <ul>
-                    <li>Warszawa, Aleje Jerozolimskie 21</li>
+            <address>
+                <ul class="footer-font">
+                    <li>
+                        <p style="color: white">
+                            m. Warszawa, Aleje Jerozolimskie 21
+                        </p>
+                    </li>
                     <li>
                         <a href="mailto:info@example.com">info@example.com</a>
                     </li>
                     <li>
-                        <a href="tel:+48 111 111 111">+48 111 111 111</a>
+                        <p href="tel:+48 111 111 111">+48 111 111 111</p>
                     </li>
                 </ul>
             </address>
