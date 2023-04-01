@@ -25,10 +25,9 @@ button {
 }
 body {
     font-family: "Roboto", sans-serif;
-    /*  min-height: 100vh;*/
+    color: var(--color-text-dark);
     max-width: 1600px;
     background-color: #fff;
-    /*  margin: 0 auto;*/
 }
 /* general classes/auxiliary classes */
 /*************************************
@@ -39,8 +38,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-
-    /* identical to box height */
     letter-spacing: 0.03em;
 }
 
@@ -61,7 +58,6 @@ body {
 }
 
 .menu-font > li > a {
-    /*  font-family: "Roboto";*/
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -109,7 +105,7 @@ h2 {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--color-text-dark);
+    /*color: var(--color-text-dark);*/
 }
 
 .bg {
