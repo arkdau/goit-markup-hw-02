@@ -5,48 +5,35 @@
     --color-text-dark: #212121;
 
     --bgcolor-primary: #2f303a;
-    --bgcolor-dark: #000;
-  --bgcolor-select: #2196f3;
+    --bgcolor-select: #2196f3;
 
-    --font-text-primary: "Roboto", sans-serif; 
-    --font-text-secondary: Roboto:wght@400; 
-  --font-figcapt-hdr: Roboto:wght@500; 
- --font-btn: "Roboto", sans-serif;  
- }
-
+    --font-text-primary: "Roboto", sans-serif;
+    --font-text-secondary: "Raleway", sans-serif;
+}
 /*  Reset */
 * {
     margin: 0;
 }
-
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
-    
 }
-
 button {
     cursor: pointer;
 }
-
 body {
     font-family: "Roboto", sans-serif;
-  /*  min-height: 100vh;*/
+    /*  min-height: 100vh;*/
     max-width: 1600px;
-   /* background-color: papayawhip;*/ 
-    background-color:#fff ; 
-  /*  margin: 0 auto;*/
+    background-color: #fff;
+    /*  margin: 0 auto;*/
 }
-
 /* general classes/auxiliary classes */
-
-/***********************************************************************************
+/*************************************
  *          header
- */ 
-
+ */
 .logo-fonts {
     font-family: "Raleway";
     font-weight: 700;
@@ -55,7 +42,6 @@ body {
 
     /* identical to box height */
     letter-spacing: 0.03em;
-   
 }
 
 .menu-font > li > a:hover {
@@ -75,279 +61,177 @@ body {
 }
 
 .menu-font > li > a {
-  /*  font-family: "Roboto";*/
-    font-style: normal;
+    /*  font-family: "Roboto";*/
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-
-/***********************************************************************************
+/*************************************
  *    foooter  
- */    
-
+ */
 .footer-font {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);   
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-
 .footer-font > li > a {
-  text-decoration:underline;  
-  color: rgba(255, 255, 255, 0.6);   
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-font > li > a:hover {
-  text-decoration:underline;  
-   color: var(--color-text-primary); 
+    text-decoration: underline;
+    color: var(--color-text-primary);
 }
-
 /* the rest of the classes in order from <header> to <footer> */
-
-/***********************************************************************************
+/*************************************
  *  main    
- */    
-
+ */
 h1 {
-    font-family: "Roboto";
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-
-    /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-   color: var(--color-text-light);
-}
-
-.bg {
-  /*background-color: coral;*/
-  background: var(--bgcolor-primary);
-}
-
-/**********************************************************
- *  buttons
- */
-
-/* btn - Zamów usługę    */ 
-.button-text-font {
-   font-family: var(--font-text-primary); 
-    font-size: 16px;
-    line-height: 30px;
-
-    /* identical to box height, or 188% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-
-.button-text-color {
     color: var(--color-text-light);
 }
 
-.button-bg {
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-dark);
+}
+
+.bg {
+    background: var(--bgcolor-primary);
+}
+/*************************************
+ *      figure - caption  
+ */
+.fig-capt-box {
+    width: 270px;
+    height: 368px;
+    background: #ffffff;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.fig-capt-box-1 {
+    width: 370px;
+    height: 404px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
+.as-attr-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.as-attr-hdr {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.team-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.team-hdr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.fig-caption-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.fig-caption-hdr {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+/*************************************
+ *  buttons
+ */
+/* btn - Zamów usługę    */
+.btn-order-svc {
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color-text-light);
+
     background: var(--color-text-primary);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: var(--color-text-primary);
 }
-
 /* portfolio btn - nawigacyjne */
-
-
 .btn-nav-font {
-font-family: var(--font-btn);
-  font-size: 16px;
-line-height: 26px;
-text-align: center;
-  border: none;
-/* identical to box height, or 162% */
-display: flex; 
- align-items:center; 
-/*justify-content: center;*/
-
-letter-spacing: 0.03em;
-border-radius: 4px;
-
-height: 38px;
-width: 93px;
-  padding:4 auto;
-
-} 
-
-.btn-nav-bg li > button {
-color:var(--color-text-dark) ;
-  background: #F5F4FA;
-  
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    align-items: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    height: 38px;
+    width: 93px;
+    padding: 4 auto;
 }
 
-.btn-nav-bg li > button:hover {
-  color:#fff ;
-  background: var(--bgcolor-select);
-  
-/* shadow-middle */
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-
+.btn-nav-bg {
+    color: var(--color-text-dark);
+    background: #f5f4fa;
 }
 
-.fig-capption-2 > h3 {
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-color: var(--color-text-dark);
+.btn-nav-bg:hover {
+    color: #fff;
+    background: var(--bgcolor-select);
+
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
-
-.fig-capption-2 > p {
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
-color: var(--color-text-secondary);
-}
-
-.box {
-  width: 370px;
-  height: 404px; 
-  border: 1px solid #EEEEEE; 
-}
-
-
-
-
-
-
-
-/*
-.text-secondary li > h3 {
-font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-color: var(--color-text-dark);
-}
-
-
-
-.text-secondary {
-  font-family: var(--font-text-secondary);
-  color: var(--color-text-secondary);
-
-}
-
-.text-secondary li > p {
-font-size: 14px;
-line-height: 24px;
-
-
-letter-spacing: 0.03em;{
-}
-
-h2 {
-  font-family: var(--font-text-primary);
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color-text-dark);
-}
-
-.fig-caption {
-font-size: 16px;
-line-height: 19px;
-
-
-text-align: center;
-letter-spacing: 0.03em;
- 
-}
-
-.fig-caption > h4 {
-font-family: var(--font-figcapt-hdr); 
-color: var(--color-text-dark);
-} 
-
-.fig-caption > p {
-font-family: var(--font-text-secondary) ;
- color: var(--color-text-secondary);
-}
-
-
-
-.fig-capption-2 li > figcaption > p {
-font-size: 16px;
-line-height: 30px;
-
-
-letter-spacing: 0.03em;
-
-color: #757575;  
-}*/
-/*
-.wrapper {
-    display: flex;
-    
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin: 0px;
-   
-    height: 16px;
-    width: auto;
-}
-
-.wrapper-30 {
-    display: flex;
-    
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 0;
-    
-    height: 101px;
-    width: auto;
-    padding: 0;
-}
-
-.wrapper-img {
-    display: flex;
-    
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 0;
-    
-    height: 290px;
-    width: auto;
-    padding: 0;
-    position: static;
-}
-
-.wrapper-img-portfolio {
-    display: flex;
-    
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 88px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    
-    height: 270px;
-    width: auto;
-    padding: 0;
-    position: static;
-}*/
-
