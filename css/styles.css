@@ -1,233 +1,227 @@
 :root {
-    --color-text-primary: #2196f3;
-    --color-text-secondary: #757575;
-    --color-text-light: #fff;
-    --color-text-dark: #212121;
+  --color-text-primary: #2196f3;
+  --color-text-secondary: #757575;
+  --color-text-light: #fff;
+  --color-text-dark: #212121;
 
-    --bgcolor-primary: #2f303a;
-    --bgcolor-select: #2196f3;
+  --bgcolor-primary: #2f303a;
+  --bgcolor-select: #2196f3;
 
-    --font-text-primary: "Roboto", sans-serif;
-    --font-text-secondary: "Raleway", sans-serif;
+  --font-text-primary: "Roboto", sans-serif;
+  --font-text-secondary: "Raleway", sans-serif;
 }
 /*  Reset */
 * {
-    margin: 0;
+  margin: 0;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 body {
-    font-family: "Roboto", sans-serif;
-    color: var(--color-text-dark);
-    max-width: 1600px;
-    background-color: #fff;
+  font-family: var(--font-text-primary);
+  /*  font-weight: 400;
+  font-size: 16px;*/
+  background-color: white;
+  color: var(--color-text-dark);
 }
 /* general classes/auxiliary classes */
 /*************************************
  *          header
  */
 .logo-fonts {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
-.menu-font > li > a:hover {
-    color: var(--color-text-primary);
+.menu-font a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-.menu-font > li > a {
-    color: var(--color-text-dark);
+.menu-font a {
+  color: var(--color-text-dark);
 }
 
-.address-color > li > a:hover {
-    color: var(--color-text-primary);
+.menu-font a:hover {
+  color: var(--color-text-primary);
 }
 
-.address-color > li > a {
-    color: var(--color-text-secondary);
+.address-color a {
+  color: var(--color-text-secondary);
 }
 
-.menu-font > li > a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-/*************************************
- *    foooter  
- */
-.footer-font {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+.address-color a:hover {
+  color: var(--color-text-primary);
 }
 
-.footer-font > li > a {
-    text-decoration: underline;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-font > li > a:hover {
-    text-decoration: underline;
-    color: var(--color-text-primary);
-}
 /* the rest of the classes in order from <header> to <footer> */
 /*************************************
  *  main    
  */
 h1 {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--color-text-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    /*color: var(--color-text-dark);*/
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .bg {
-    background: var(--bgcolor-primary);
+  background: var(--bgcolor-primary);
 }
+
 /*************************************
  *      figure - caption  
  */
 .fig-capt-box {
-    width: 270px;
-    height: 368px;
-    background: #ffffff;
-    /* material shadow v1 */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .fig-capt-box-1 {
-    width: 370px;
-    height: 404px;
-    background: #ffffff;
-    border: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .as-attr-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .as-attr-hdr {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
 }
 
 .team-desc {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .team-hdr {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  font-weight: 500;
+  line-height: 1.1875;
+  text-transform: capitalize;
 }
 
 .fig-caption-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .fig-caption-hdr {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-transform: capitalize;
 }
 /*************************************
  *  buttons
  */
 /* btn - Zamów usługę    */
 .btn-order-svc {
-    width: 200px;
-    height: 50px;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /*display: flex;*/
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--color-text-light);
-
-    background: var(--color-text-primary);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: var(--color-text-primary);
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-text-light);
+  background: var(--color-text-primary);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: var(--color-text-primary);
 }
+
 /* portfolio btn - nawigacyjne */
 .btn-nav-font {
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    border: none;
-    align-items: center;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
-    height: 38px;
-    width: 93px;
-    padding: 4 auto;
+  font-family: var(--font-text-primary);
+  font-weight: 500;
+  line-height: 1.625;
+  text-align: center;
+  border: none;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  height: 38px;
+  width: 121px;
 }
 
 .btn-nav-bg {
-    color: var(--color-text-dark);
-    background: #f5f4fa;
+  color: var(--color-text-dark);
+  background: #f5f4fa;
 }
 
 .btn-nav-bg:hover {
-    color: #fff;
-    background: var(--bgcolor-select);
+  color: #fff;
+  background: var(--bgcolor-select);
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
 
-    /* shadow-middle */
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+/*************************************
+ *    foooter  
+ */
+.footer-font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-font > li > a {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-font > li > a:hover {
+  text-decoration: underline;
+  color: var(--color-text-primary);
 }
